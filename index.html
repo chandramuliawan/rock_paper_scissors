@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockPaperScissors</title>
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="main_container">
+        <div class="header"></div>
+        <div class="main_board">
+            <div class="user_box">
+                <p>This is User's input!</p>
+                <ul class="user_option">
+                    <LI><img class="img_option user_rock" src="./images/rock.png" alt="user_rock"></LI>
+                    <LI><img class="img_option user_paper" src="./images/paper.png" alt="user_paper"></LI>
+                    <LI><img class="img_option user_scissors" src="./images/scissors.png" alt="user_scissors"></LI>
+                </ul>
+            </div>
+            <div class="bot_box">  
+                <p>This is Bot's options!</p>              
+                <ul class="bot_option">
+                    <LI><img class="img_option_bot bot_rock" src="./images/rock.png" alt="bot_rock"></LI>
+                    <LI><img class="img_option_bot bot_paper" src="./images/paper.png" alt="bot_paper"></LI>
+                    <LI><img class="img_option_bot bot_scissors" src="./images/scissors.png" alt="bot_scissors"></LI>
+                </ul>
+            </div>
+            <div class="text_box"></div>
+        </div>
+        <div class="result_board">welcome to the game! select your input to start!</div>
+        <div class="hiddenboard">
+            <p class="updateBo5score">Do want to play the best of 5 again?</p>
+            <Button class="button_replay">Yes!</Button>
+        </div>
+
+    </div>
+
 </body>
 </html>

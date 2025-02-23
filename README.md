@@ -1,4 +1,36 @@
 # rock_paper_scissors
+UPDATE README.
+this is the 'second' iteration of RPS practice, that will incorporate javascript on DOM practice. 
+I have read the pre-requisite this time, and the goal is as follow.
+1. we use HTML UI instead of 'playing' in the console.
+2. remove the five-round rules, we gonna play till one of us DROP! JK, we gonna recap a game in Bo5
+3. we need to display running scores, and end game when Bo5 winner is reached.
+4. this may also mean we need a replay game (the bo5) button.
+5. the round, start as soon as a button input is input by user.
+
+===== requirement that i notice =====
+1. button/interface of the Rock Paper Scissors.
+2. button/interface(we can use text) to show the match up
+3. text or whatever that shows running scores in bo5.
+4. text or announcement on who in in bo5.
+5. button to REPLAY the Bo5
+
+and optional, the Bo5 scores, aka how many times users win Bo5 and BOT win bo5.
+
+====== things on DOM lesson that I notice right away =====
+1. basically we only do button click, maybe image click if i use non-button interface
+2. as button click here is whats happening
+   -> round played
+   -> result recorded and running scores updated
+   -> play round until bo5 (ie button clicked again)
+   -> the last time button clicked result on bo5 winner,
+   -> winner announced, and button of the reset bo5 activated, button to play game de-activated.
+   -> WHEN button of bo5 activated, reset the running scores, deactivate and activate button as needed.
+3. i think that is pretty much what happened.
+
+
+
+
 first attempt of making an interactive html page, with heavy emphasis on jscript, less on html and css.
 
 ========== Initial Ideas =============
